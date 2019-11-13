@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Avenir-Roman';
+  src: url('./Avenir-Roman.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir-Heavy';
+  src: url('./Avenir-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('./Avenir-Book.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir-Black';
+  src: url('./Avenir-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: url('./Avenir-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('./OpenSans-Regular.ttf') format('truetype');
+}

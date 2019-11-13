@@ -1,0 +1,74 @@
+
+@media (max-width: 576px) {
+  .Status > .BannerBelow {
+    height: 122px !important;
+    border-bottom: solid 1px #dce3eb;
+    background-color: #FCFCFF;
+  }
+}
+.Status .row.box-d > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Status .Illustration {
+  margin: 16px 8px;
+}
+
+.Status a {
+  color: #3BA3FE !important;
+  font-style: normal !important;
+}
+
+.bottom-buttons button {
+	font-size: 13px !important;
+	font-family: 'Avenir-Medium' !important;
+	letter-spacing: .8px !important;
+	width: 140px;
+	height: 40px;
+}
+
+.bottom-buttons .btn-secondary, .bottom-buttons .btn-secondary:hover{
+  color: #9096B2;
+}
+
+.Status .trade-rectangle > :not(:last-child):not(:first-child){
+ 	border-bottom: solid 1px #dce3eb;
+}
+.Status .trade-rectangle > .row {
+	padding-top: 14px;
+	padding-bottom: 14px;
+ 	width: 100%;
+}
+
+.Status .trade-rectangle > .row > div {
+	text-align: left;
+}
+.Status > .BannerBelow {
+  height: 88px;
+  border-bottom: solid 1px #dce3eb;
+  background-color: #FCFCFF;
+}
+
+.Status > .BannerBelow .row span.header-descriptor {
+	color: #9096B2;
+	font-weight: 0;
+	font-size: 12px;
+	padding-top: 1px;
+	letter-spacing: 1px;
+	min-width: 53px;
+  text-transform: uppercase;
+  font-family: 'Avenir-Book';
+}
+
+.Status > .BannerBelow .row span {
+	font-size:14px;
+  width:100%;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  float: left;
+  clear: left;
+}

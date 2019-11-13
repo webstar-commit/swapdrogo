@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
+    <defs>
+        <circle id="a" cx="46.5" cy="46.5" r="46.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(4 4)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <circle cx="46.5" cy="46.5" r="48.5" stroke="#DD3BAD" stroke-width="4"/>
+            <g stroke="#FDD6F1" stroke-linecap="square" stroke-width="3" mask="url(#b)">
+                <path d="M37.5 12.5l62-39M23.5 12.5l62-39M37.5 23.5l62-39M37.5 33.5l62-39M37.5 43.5l62-39M37.5 53.5l62-39M37.5 62.5l62-39M37.5 71.5l62-39M37.5 80.5l62-39M37.5 89.5l62-39M58.5 84.5l62-39M58.5 92.5l62-39"/>
+            </g>
+            <circle cx="41.5" cy="49.5" r="44.5" fill="#FFC0EC" mask="url(#b)"/>
+            <path stroke="#80055C" stroke-dasharray="21,8" stroke-linecap="round" stroke-width="4" d="M30.08 11.453C20.814 17.638 14.71 28.19 14.71 40.169" mask="url(#b)" transform="rotate(20 22.395 25.81)"/>
+        </g>
+        <path fill="#DD3BAD" d="M31.31 51.746L26 57.026 43.069 74 81 36.28 75.69 31 43.069 63.439z"/>
+    </g>
+</svg>

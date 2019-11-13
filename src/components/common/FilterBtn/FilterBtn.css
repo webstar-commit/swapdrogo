@@ -1,0 +1,14 @@
+.filter-d {
+  position: relative;
+}
+
+.filter-d > span {
+  position: absolute;
+  top: 70px;
+  width: 283px;
+  height: 54px;
+  border-radius: 4px;
+  box-shadow: -10px 20px 65px 0 rgba(144, 150, 178, 0.3);
+  border: solid 1px #dce3eb;
+  background-color: #ffffff;
+}

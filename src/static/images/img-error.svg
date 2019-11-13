@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="139" viewBox="0 0 150 139">
+    <defs>
+        <path id="a" d="M35.086.002L9.6 25.004.675 75.574v35.761l6.03 15.768 2.895 2.75 25.486-24.956-4.594-22.173-1.802-39.568 8.013-21.514z"/>
+        <path id="c" d="M.1 27.25L26.961.212l35.888 8.66 83.973-8.66-27.56 27.697L79.818 39.33l-37.376-6.805z"/>
+        <path id="e" d="M0 28l36.026 4.135 43.747 7.425L119.2 28l-8.06 55.941v33.439l8.06 22.503H0l5.88-25.213 4.817-10.887L5.881 77.06V62.305z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(110.2 5.54)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path stroke="#C175E6" stroke-width="2.4" d="M29.9 43.346l1.787 39.228 4.707 22.722L9.613 131.52l-3.932-3.735-6.206-16.228V75.574l.018-.208 8.992-50.95L36.09-2.664l1.83 24.478-8.02 21.532z"/>
+            <path d="M8.658 136.41L38.194-11.59v119.078z" mask="url(#b)"/>
+            <path stroke="#6F00C3" stroke-width="2.4" d="M-.872 130.09l42.183-39.212M-.872 120.5l42.183-39.212M-.872 110.91l42.183-39.212M-.872 101.32l42.183-39.212M-.872 90.93l42.183-39.21M-.872 81.34l42.183-39.21M-.872 71.75l42.183-39.21M-.872 62.161l42.183-39.212M-.872 51.772L41.311 12.56M-.872 41.383L41.311 2.17" mask="url(#b)"/>
+        </g>
+        <g transform="translate(.6 -.883)">
+            <g transform="translate(0 .828)">
+                <mask id="d" fill="#fff">
+                    <use xlink:href="#c"/>
+                </mask>
+                <use fill="#3D0467" xlink:href="#c"/>
+                <path fill="#550591" d="M-1.6 28.43l28.171 2.726V0z" mask="url(#d)"/>
+            </g>
+            <mask id="f" fill="#fff">
+                <use xlink:href="#e"/>
+            </mask>
+            <path stroke="#6F00C3" stroke-width="2.4" d="M1.453 29.375l5.61 32.727.018.203v14.648l4.862 26.98-4.92 11.12-5.51 23.63h115.983l-7.557-21.095V83.941l.013-.17 7.794-54.094-37.9 11.113-.273-.047-43.684-7.416-34.436-3.952z"/>
+            <path stroke="#6F00C3" stroke-width="2.4" d="M-8.479 135.964l30.597-48.793" mask="url(#f)"/>
+            <path stroke="#6F00C3" stroke-width="2" d="M76.94 102.263l56.354-11.885" mask="url(#f)"/>
+            <path stroke="#6F00C3" stroke-width="2.4" d="M75.521 48.964L106.118.171" mask="url(#f)"/>
+            <path stroke="#6F00C3" stroke-width="2.4" d="M126.56 173.117l-18.665-54.484" mask="url(#f)" transform="rotate(-17 117.227 145.875)"/>
+            <path stroke="#6F00C3" stroke-width="2.4" d="M40.028 52.178L6.25 5.53" mask="url(#f)"/>
+        </g>
+    </g>
+</svg>

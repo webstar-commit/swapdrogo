@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="111px" viewBox="0 0 127 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>bat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bat">
+            <polygon id="Path" fill="#662D91" points="126.3 109.8 63.3 73.7 0.2 110.2"></polygon>
+            <polygon id="Path" fill="#9E1F63" points="63.2 0 62.8 73.7 126.3 109.8"></polygon>
+            <polygon id="Path" fill="#FF5000" points="0.2 110.2 63 74.3 63.2 0"></polygon>
+            <polygon id="Path" stroke="#FF5000" stroke-width="0.83" fill="#FFFFFF" points="62.8 44.8 37.4 88.5 88.9 88.5"></polygon>
+        </g>
+    </g>
+</svg>

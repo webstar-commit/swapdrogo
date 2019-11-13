@@ -1,0 +1,268 @@
+/**
+ * This file contains all the common styles.
+ */
+#root {
+  font-family: 'Avenir-Roman';
+  color: #343B5C;
+  font-size: 14px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+@media (max-width: 346px) {
+  .trade-rectangle {
+    padding: 20px 30px;
+    width: 320px;
+  }
+
+  .bottom-buttons button {
+    width: 120px;
+  }
+
+  .Status > .BannerBelow {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  .Banner {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .Status > .BannerBelow {
+    height: 122px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Banner {
+    height: 108px;
+    background: none !important;
+  }
+
+  .Banner > div {
+    background: none !important;
+  }
+}
+
+
+html, body {  
+    max-width: 100%;  
+    overflow-x: hidden; 
+}
+
+.banner{
+  background: #ccc;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  padding-left: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index:100
+}
+
+button:focus {
+    outline: none !important;
+}
+
+::-webkit-scrollbar {
+width: 8px;
+background: #F6F8FF !important;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background-color: #A9A6C7 !important;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.h-pad-none {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.notification-count {
+  margin-left: 16px;
+  background-color: #E59165;
+  color: white;
+  padding: 0 0.5em;
+  border-radius: 1em;
+  font-size: 14px;
+}
+
+.wallet-address-collapsible {
+  max-width: 72px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ContentArea {
+  background-color: #f6f8ff;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.ContentArea > .row-container:not(.no-margins) > .row:not(:first-child):not(:last-child) {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.ContentArea > .row-container:not(.no-margins) > .row:first-child {
+  margin-bottom: 48px;
+}
+
+.ContentArea > .row-container:not(.no-margins) > .row:last-child {
+  margin-top: 48px;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:disabled,
+button:disabled {
+  cursor: not-allowed;
+}
+
+.SearchInput .input-group .input-group-append .btn {
+  background-color: #E47B8E;
+  color: white;
+}
+
+.SearchInput .input-group input:focus,
+.SearchInput .input-group input:active {
+  border-color: #E47B8E;
+  box-shadow: none;
+}
+
+.Illustration {
+  max-height: 128px;
+}
+
+.Illustration.Rotated {
+  transform: rotate(90deg);
+  margin: 40px;
+}
+
+.btn-success {
+  background-color: #73BF89;
+  border-color: #73BF89;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.LoaderWithText > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.LoaderWithText > div:first-child {
+  margin-right: 12px;
+}
+
+.modal-body p {
+  overflow-wrap: break-word;
+}
+
+.subtitle {
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+/* Button */
+.big-btn {
+  font-family: 'Avenir-Roman';
+  font-weight: 700px;
+  letter-spacing: 1px;
+  font-size: 14px !important;
+  height: 46px; 
+}
+
+.bar-btn {
+  background-color: #ffff;
+  font-family: 'Avenir-Roman';
+  font-size: 14px !important;
+  color: #9096b2;
+  border: 1px solid #dce3eb !important;
+}
+/*.button-bar-btn:hover {
+  background-color: #dae2fe;
+  border: 1px solid #dae2fe;
+  color: #8894bf;
+}*/
+.button-bar-btn:active {
+  background-color: #7234c5;
+  color: #ffffff;
+}
+
+.btn.btn-disabled {
+  background-color: #f6f6f6;
+  border: 1px solid #dce3eb;
+  color: #9096b2;
+}
+
+/* tooltip */
+.tooltip-inner {
+  background-color: #7234c5 !important;
+  color: #FFFFFF !important;
+  font-family: 'Avenir-Book';
+  font-size: 12px;
+}
+
+.bs-tooltip-top .arrow::before,
+.bs-tooltip-auto[x-placement^="top"] .arrow::before {
+  border-top-color: #7234c5 !important;
+  margin-top: -1px !important;
+}
+
+img[src=""] {
+    display: none !important;
+}
+
+.Banner {
+  height: 98px;
+  background-color: #ffffff;
+  border-bottom: solid 1px #dce3eb;
+}
+
+.Banner > div {
+  flex-flow: column;
+  text-align: center;
+} 
+
+.Banner > div h1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 0;
+  font-family: 'Avenir-Heavy';
+  font-size: 22px;
+  color: #343b5c;
+}
+.Banner > div span {
+  color: #606789;
+  font-family: 'Avenir-Roman';
+  font-size: 14px;
+  padding-bottom: 18px;
+}
+
+

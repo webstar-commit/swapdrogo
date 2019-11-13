@@ -1,0 +1,98 @@
+/**
+ * This file contains all the default Bootstrap styles we want to override.
+ */
+.btn {
+    line-height: 1 !important;
+}
+.tooltip.show {
+    opacity: 1 !important;
+}
+
+.btn-primary {
+  background-color: #ff67d1 !important;
+  border-color: #ff67d1 !important;
+  color: #fff !important;
+  font-family: 'Avenir-Roman';
+}
+
+.btn-primary:hover {
+  background-color: #ca57a7  !important;
+  border-color: #ca57a7 !important;
+}
+.btn-primary:active {
+  background-color: #d667b5  !important;
+  border-color: #d667b5 !important;
+}
+
+.btn-secondary {
+  background-color: Transparent !important;
+  border-color: #9096B2 !important;
+  color: #9096B2;
+  font-family: 'Avenir-Roman';
+  border: 1.3px solid #9096B2;
+}
+
+.btn-secondary:hover {
+  background-color: Transparent !important;
+  border-color: #9096B2 !important;
+}
+.btn-secondary:active {
+  background-color: Transparent !important;
+  border-color: #9096B2 !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+  padding-bottom: 0px !important;
+}
+
+.modal-content {
+  border: 0px solid #9096B2 !important;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 400px !important;
+  }
+
+  .modal-dialog.modal-share {
+    max-width: 480px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+      max-width: 1100px !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+      max-width: 1100px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container.trade, .container.tagline, .navbar.container {
+ /*     padding-left: 54px;
+      padding-right: 54px;*/
+  }
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+/* remove focus outline */
+.btn:focus,.btn:active {
+   border-color: none !important;
+   box-shadow: none !important;
+   -webkit-box-shadow: none !important;
+}
+
+.form-control:focus,.form-control:active {
+   box-shadow: none !important;
+   -webkit-box-shadow: none !important;
+}
+

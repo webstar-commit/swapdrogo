@@ -1,0 +1,357 @@
+.react-datepicker__portal {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.react-datepicker {
+    font-family: Avenir-Book;
+    font-size: 12px;
+    color: #343b5c;
+    border: 0px solid #dce3eb !important;
+    border-radius: 0.3rem;
+}
+
+.react-datepicker-btn {
+    background: none;
+    color: #bc92e2;
+    font-size: 12px;
+  border: 0px solid white;
+  text-decoration: underline;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+    background-color: #FF67D1;
+    color: white;
+    font-weight: bold;
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range {
+    border-radius: 0.3rem;
+    background-color: #FF67D1;
+    color: #fff;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover {
+    background-color: #ca57a7;
+}
+.react-datepicker__time-container {
+    border-left: 1px solid #dce3eb;
+}
+
+.react-datepicker__portal .react-datepicker__navigation--next {
+    border-left-color: #A9A6C7;
+}
+.react-datepicker__portal .react-datepicker__navigation--previous {
+    border-right-color: #A9A6C7;
+}
+
+.react-datepicker__day--selected:hover, .react-datepicker__day--in-selecting-range:hover, .react-datepicker__day--in-range:hover {
+    background-color: #ca57a7;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item {
+    height: 40px;
+    padding-top: 4px;
+}
+
+.react-datepicker__header {
+    text-align: center;
+    background-color: #F6F8FF;
+    border-bottom: 1px solid #dce3eb;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    padding-top: 8px;
+    position: relative;
+}
+.react-datepicker__current-month, .react-datepicker-time__header {
+    margin-top: 0;
+    color: #343b5c;
+    font-weight: bold;
+    font-size: 0.944rem;
+}
+
+.react-datepicker-time__header {
+    margin-top: 0;
+    color: #343b5c;
+    font-weight: bold;
+    font-size: 0.944rem;
+}
+
+.react-datepicker__day:hover {
+    background-color: #F6F8FF;
+}
+
+.CurrencyDropdown__Tether .CurrencyDropdownOption,
+.CurrencyDropdown .CurrencyDropdownOption {
+  margin: auto;
+}
+
+.is-invalid {
+  border: 1px solid red !important;
+}
+
+.CurrencyDropdown__Tether .CurrencyDropdownOption img,
+.CurrencyDropdown .CurrencyDropdownOption img {
+  width: 16px;
+  display: inline-block;
+  margin-right: 13px;
+  margin-left: 6px;
+  margin-top: -3px;
+}
+
+.CurrencyDropdown__Tether .CurrencyDropdownOption div,
+.CurrencyDropdown .CurrencyDropdownOption div {
+  font-family: 'Avenir-Book';
+  font-size: 14px;
+  position: relative; 
+}
+
+.CurrencyDropdown__Tether .CurrencyDropdownOption div span,
+.CurrencyDropdown .CurrencyDropdownOption div span {
+  display: inline-block;
+  color: #606789;
+}
+.CurrencyDropdown__Tether .CurrencyDropdownOption div span:nth-child(1),
+.CurrencyDropdown .CurrencyDropdownOption div span:nth-child(1) {
+  margin-right: 8px;
+  font-family: 'Avenir-Heavy';
+  font-size: 16px;
+  position: relative;
+  color: #343b5c;
+}
+
+.CurrencyDropdown .PowerSelect__Clear {
+  display: none;
+} 
+
+.Trade .CurrencyOption.active small,
+.Trade .CurrencyOption:active small {
+  color: white !important;
+}
+
+.Trade .HelpTooltip {
+  color: #E58193;
+  margin-left: 8px;
+  vertical-align: middle;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.Trade .form-group {
+  /*
+  margin-top: 26px;
+  margin-bottom: 26px;
+  */
+  margin-bottom: 0px;
+}
+
+.Trade .form-group span.desc {
+  display: none !important;
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 16px;
+  color: #6877bf;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  font-family: 'Avenir-Book';
+  float:right;
+}
+
+.Trade .Illustration {
+  margin: 16px 8px;
+}
+
+.Trade .buttons-bar  {
+  display: none !important;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: solid 1px #dce3eb;
+}
+
+.Trade .buttons-bar > .row.btns-d > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Trade form > .row.box-d > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Trade .buttons-bar > .row.btns-d > div button:last-child {
+  margin-right: 24px !important;
+}
+
+.trade-rectangle {
+  width: 350px;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 4px 6px 60px 0 rgba(184, 192, 238, 0.2);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.marg-right-md {
+    margin-right: 40px;
+}
+@media (min-width: 786px) {
+  .trade-container {
+    max-width: 778px;
+  }
+
+}
+
+@media (max-width: 767px) {
+/*  .trade-rectangle {
+    width: 100% !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+*/
+  .marg-center {
+    /*margin-right: 0px !important;*/
+    margin: 0 auto !important;
+  }
+}
+
+.trade-rectangle input.form-control {
+  height: 36px;
+  border: 1px solid #dce3eb ;
+  border-radius: 4px !important;
+  font-size: 14px;
+}
+
+.trade-rectangle input.form-control:focus, .trade-rectangle input.form-control:active {
+   border: 1px solid #8C3CF6 !important;
+ }
+
+.trade-rectangle input.form-control:disabled {
+  background-color: #F7F8FC !important;
+}
+
+.Trade .form-group .help {
+  float: left;
+}
+
+.Trade .form-group .help div div svg{
+  margin-top: -6px;
+}
+
+.trade-rectangle .asteriks-message {
+  float: right;
+  font-size: 11px;
+}
+
+.trade-rectangle label {
+  font-size: 14px;
+  color: #9096b2;
+  margin-bottom: 6px;
+  font-family: 'Avenir-Book';
+  margin-right: 8px;
+  float: left;
+}
+
+.trade-rectangle h4 {
+  text-align: center;
+  color: #A3A9C5;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 17px;
+  font-weight: 700;
+  font-family: 'Avenir-Roman';
+}
+
+.trade-rectangle .form-group {
+  margin-bottom: 17px;
+}
+
+.PowerSelect {
+    cursor: pointer;
+    border: 1px solid #dce3eb ;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: left !important;
+}
+
+.PowerSelect__Trigger {
+  height: 36px !important;
+}
+
+.PowerSelect__Clear, .PowerSelect__TriggerInputContainer, .PowerSelect__TriggerLabel, .PowerSelect__TriggerStatus, .PowerSelectMultiple__OptionsContainer {
+  height: 36px !important;
+}
+
+.PowerSelect__Placeholder {
+  font-size: 14px !important;
+  padding-left: 15px;
+  color: #9096B2 !important;
+  font-family: 'Avenir-Book';
+}
+
+.PowerSelect__TriggerStatus:before {
+  border-top: 8px solid #ccc !important;
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+}
+
+.PowerSelect--focused {
+    border-color: #dce3eb !important;
+}
+
+.PowerSelect__SearchInput {
+    border-color: #dce3eb !important;
+}
+
+.PowerSelect__SearchInput:focus {
+    border-color: #8C3CF6 !important;
+}
+
+.PowerSelect__Option--highlighted {
+    background-color: #EDF0FA !important;
+}
+
+.PowerSelect__Option:not(.PowerSelect__Option--disabled):hover {
+    background-color: #F6F8FF !important;
+}
+
+.PowerSelect__Menu {
+  background-color: #fff;
+  border: 1px solid #dce3eb !important;
+  border-radius: 0px 0px 4px 4px !important;
+}
+
+.Trade .create-btn {
+  margin-top: 38px !important;
+}
+.Trade .expire-desc {
+  margin-top: 10px;
+  text-align: center;
+}
+.Trade .expire-desc span:nth-child(1) {
+  font-size: 12px;
+  font-family: 'Avenir-Book';
+  color: #9096b2;
+}
+.Trade .expire-desc span:nth-child(2) {
+  font-size: 11px;
+  font-family: 'Avenir-Heavy';
+  color: #bc92e2;
+  text-decoration-color: #bc92e2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Trade .form-control:focus,
+.Trade .form-control:active {
+   border-color: #8C3CF6 !important;
+   box-shadow: none !important;
+   -webkit-box-shadow: none !important;
+}
+
